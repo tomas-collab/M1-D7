@@ -13,7 +13,9 @@
     */
 
 
-        window.onload = function() {
+       document.addEventListener('DOMContentLoaded',()=>{
+
+       
          
         
 
@@ -85,6 +87,16 @@
 
 
 
-EX17) Write a function to trim just the first 50 characters in the first paragraph for each blog post
+// EX17) Write a function to trim just the first 50 characters in the first paragraph for each blog post
 
-}
+
+// function trimCharacter(){
+//     let p = document.querySelectorAll('.blog-post>p:nth-child(1)')
+//         p.innerHtml = p.substring(0, 50);
+// }
+// trimCharacter()
+
+})
+
+
+
