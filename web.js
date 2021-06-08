@@ -6,7 +6,7 @@
        
         
         
-        EX17) Write a function to trim just the first 50 characters in the first paragraph for each blog post
+        
         EX18) Write a function and attach it to the "Newer" button, to add new Blog Post (just div and title)
         EX19) Write a function and attach it to the "Older" button, to remove the last Blog Post
         EX20) Write an alert with the name of the author every time the user hover with the mouse over an author name
@@ -82,5 +82,9 @@
 //         icon.remove()
 //     }
 // removeIcon()
+
+
+
+EX17) Write a function to trim just the first 50 characters in the first paragraph for each blog post
 
 }
