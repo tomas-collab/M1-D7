@@ -71,7 +71,7 @@
     // EX15) Write a function to change the column size for heading in jumbotron           idk
     // function JumbotronColumnSize(){
     //     let jumbotronColumn = document.querySelectorAll('div.jumbotron > div > h1')
-    //     jumbotronColumn.style.columnSize = '100px'
+    //     jumbotronColumn.style.columnSize = '20px'
     // }
     // JumbotronColumnSize()
 
@@ -90,11 +90,13 @@
 // EX17) Write a function to trim just the first 50 characters in the first paragraph for each blog post
 
 
-// function trimCharacter(){
-//     let p = document.querySelectorAll('.blog-post>p:nth-child(1)')
-//         p.innerHtml = p.substring(0, 50);
-// }
-// trimCharacter()
+function trimCharacter(){
+    let p = document.getElementsByTagName('div > div > div:nth-child(2) > p:nth-child(3)')
+       
+           p.content = p.substring(0, 50);
+       
+}
+trimCharacter()
 
 })
 

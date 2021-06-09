@@ -33,12 +33,12 @@ aside > div:nth-child(2) > ol > li {
   background-color: red;
 }
 /* EX8) Write a selector to target the second post author */
-div > div > div:nth-child(3) > p.blog-post-meta > a {
+/* div > div > div:nth-child(2) > p.blog-post-meta > a {
   background-color: red;
-}
+} */
 /* EX9) Write a selector to target the "back to top" link     #### EXTRA Try doing it without targeting the footer element directly */
-p:nth-child(2) > a {
-  background-color: red;
+footer p:nth-child(2) > a {
+  background-color: yellow;
 }
 /* EX10) Write a selector to target the footer */
 footer {
